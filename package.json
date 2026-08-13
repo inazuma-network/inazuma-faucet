@@ -1,0 +1,14 @@
+{
+  "name": "inazuma-faucet",
+  "version": "0.1.0",
+  "description": "Faucet service that hands out test INAZ on the Inazuma layer-1 chain, with on-address rate limits.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/server.ts",
+    "dev": "bun --watch src/server.ts"
+  },
+  "dependencies": {
+    "@inazuma/sdk": "github:inazuma-network/inazuma-sdk"
+  }
+}
